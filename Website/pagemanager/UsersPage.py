@@ -2,7 +2,7 @@
 #@Time    :2020/3/20 16:01
 #@Author  :shenfeifei
 
-from Website.test_case.page_object.BasePage import *
+from Website.pagemanager.BasePage import *
 from selenium.webdriver.common.by import By
 
 class UsersPage(Page):

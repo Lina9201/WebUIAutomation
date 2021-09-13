@@ -2,7 +2,7 @@
 #@Time    :2020/3/23 9:36
 #@Author  :shenfeifei
 
-from Website.test_case.page_object.UsersPage import *
+from Website.pagemanager.UsersPage import *
 from Website.test_case.model import function,myunit
 import unittest
 from time import sleep

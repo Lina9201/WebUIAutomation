@@ -2,10 +2,7 @@
 #@Time    :2020/3/13 11:07
 #@Author  :shenfeifei
 
-from selenium import webdriver
-import requests
-from Website.test_case.model import myunit
-from Website.test_case.page_object.BasePage import *
+from Website.pagemanager.BasePage import *
 from driver.driver import browser
 
 def get_token():

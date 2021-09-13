@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/4/13 15:04
 # @Author  : zhuxuefei
-from Website.test_case.page_object.TenantPage import *
+from Website.pagemanager.TenantPage import *
 from Website.test_case.model import function,myunit
 import unittest
-from time import sleep
+
 
 class CreateTenant(myunit.StartEnd):
     def test_createTenant_normal(self):
